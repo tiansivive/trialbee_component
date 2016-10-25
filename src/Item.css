@@ -6,15 +6,31 @@
     flex-flow: column;
     align-items: center;
 
+	justify-content: space-around;
+	
 	background-color: rgba(230,230,230, 0.9);
 	transition: all 0.2s linear;
 }
 
 .Item>button{
 	align-self: flex-end;
+
+	background-color: rgba(150,150,150, 0.9); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 .Item:hover{
 	transform: scale(1.1,1.1);
 	background-color: rgba(200,200,200, 0.9);
+}
+
+
+.Item .About >p{
+	max-width: 300px;
 }

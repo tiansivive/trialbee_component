@@ -7,7 +7,7 @@ class Item extends Component {
   render() {
     return (
       <div className="Item">
-			<img src={this.props.src} height="100" width="250"/>
+			<img src={this.props.src} height="200" width="300" role="presentation"/>
 			<About title={this.props.title} content={this.props.description}/>
 			<button>{this.props.label}</button>
       </div>
