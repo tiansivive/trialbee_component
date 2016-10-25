@@ -1,0 +1,20 @@
+.Item{
+	margin: 2.5em .5em 0;
+	padding: 1em;
+	
+	display: flex;
+    flex-flow: column;
+    align-items: center;
+
+	background-color: rgba(230,230,230, 0.9);
+	transition: all 0.2s linear;
+}
+
+.Item>button{
+	align-self: flex-end;
+}
+
+.Item:hover{
+	transform: scale(1.1,1.1);
+	background-color: rgba(200,200,200, 0.9);
+}
